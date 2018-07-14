@@ -6,21 +6,24 @@
         <!-- the head section contains for search engines 
         and the browser and is not seen by site visitors. -->
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+   <link rel="stylesheet" href="style.css">
     <title>Exceptional Realty Group - Luxury Homes - About</title>
 </head>
 <body>
    <header>
-  
+<div id="logo">
   <h1>Exceptional</h1>
   <h2>Realty Group</h2>
-
+</div>
   <nav>
-  <a href="index.html"> About </a>
-  <a href="new-properties.html">new-properties</a>
-  <a href="real-estate-listings.html">real-estate-listings</a>
-  <a href="market-report.html">market-report</a>
-  <a href="contact.html">contact</a>
-  <a href="http://hud.gov" target="_blank">H.U.D.</a>
+  <a href="index.html" id="details"> About </a>
+  <a href="new-properties.html" id="details">new-properties</a>
+  <a href="real-estate-listings.html"id="details">real-estate-listings</a>
+  <a href="market-report.html"id="details">market-report</a>
+  <a href="contact.html" id="details">contact</a>
+  <a href="http://hud.gov" id="details" target="_blank">H.U.D.</a>
     </nav>
     
 </header>
@@ -29,6 +32,7 @@
 
   <img src="images\intro-pic.jpg" alt="A beautiful leaving room." title="welcome to Exceptional Realty Group">
     <figcaption>  345 carl street Apt 12, carrol Rd . Brooklyn , NY- photo by Denise Richards.</figcaption>
+</section>
 </figure>
   <!--
       foldername/ = go inside the folder
@@ -40,20 +44,53 @@
 
    </section>
 
-   <section>
+<section>
     <!-- promo video -->
     <figure>
     <video controls>
         
      <source src="videos/ReUncut Website Contact Page - 30 Sec.ogv" type="video/ogg">
         <source src="videos/ReUncut Website Contact Page - 30 Sec.mp4" type="video/mp4">
-       tour browser does not support HTML5 video . <a href="http://browsehappy.com" target="_blankk">please upgrade your browser</a> 
+       tour browser does not support HTML5 video . <a href="http://browsehappy.com" target="_blank">please upgrade your browser</a> 
 
     </video>
     <figcaption>Exceptional Realty Group promotional video - source :archive.org  </figcaption>
     </figure>
-    </section>
+</section>
 
+    <section id="details">
+        <div>
+           <h3>Contact</h3> 
+           <p>
+               email: <a href="mailto:info@exceptionalrealty.com">mailto:info@exceptionalrealty.com</a>
+               <br>
+               phone: +1 710 5555 1234
+           </p>
+           <h3>correspondence</h3>
+           <address>
+               Exceptional Realty<br>
+               P.D. Box 5555 <br> 
+               Brooklyn, NY 11201
+           </address>
+        </div>
+        <div>
+            <h3>links</h3>
+            <p>
+                <a href="#" target="_blank">Home Restoration</a> <br>
+                <a href="#" target="_blank">Afordable Mortgages</a> <br>
+                <a href="#" target="_blank">Professional Moving Crew</a>
+
+            </p>
+        </div>
+        <div>
+            <h3>Follow</h3>
+            <p>
+                <a href="#" target="_blank">Youtube</a><br>
+                <a href="#" target="_blank">Facebook</a><br>
+                <a href="#" target="_blank">Twitter</a>
+            </p>
+        </div>
+    </section>
     <footer>
         &copy; 2014 Exceptional Realty . All Rights Reserved.
     </footer>
